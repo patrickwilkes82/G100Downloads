@@ -37,7 +37,7 @@ header h1 {
 .appCard {
     height: 150px;
 	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
-    border: 2px solid black;
+    
 }
 
 .cardTitle {
@@ -47,11 +47,13 @@ header h1 {
     text-align: center;
     font-size: 1.1rem;
     color: white;
-    border-bottom: 1px solid white;
+    border: 2px solid black;
 }
 
 .cardLink {
     width: 100%;
+    border: 2px solid black;
+    border-top: none;
 }
 
 .cardLink button {
@@ -59,26 +61,28 @@ header h1 {
     height: 50px;
     border: none;
     background-color: transparent;
-}
-
-.cardLink button i {
-    font-size: 1.3rem;
-    color: white;
+    transition: 0.3s;
+    border-top: none;
 }
 
 .cardLink button:hover {
     cursor: pointer;
-    background-color: white;
-    border: 1px solid black;
-    color: black;
+    color: white;
+    opacity: 1.0;
+    transition: 0.3s;
+}
+
+.cardLink button i {
+    font-size: 1.3rem;
+    opacity: 0.7;
 }
 
 .cardLink button:hover i {
-    color: black;
+    opacity: 1.0;
 }
 
-.cardLink button:nth-child(2) {
-    border-left: 1px solid white;
+.border-left {
+    border-left: 2px solid black;
 }
 
 /*CARD COLORS*/

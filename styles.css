@@ -11,15 +11,15 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: #eee;
 }
 
 header {
     height: 100px;
-    background-color: blue;
     text-align: center;
     line-height: 100px;
-    color: white;
+    box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.75);
+    background-color: white;
 }
 
 header h1 {
@@ -27,11 +27,11 @@ header h1 {
 }
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: auto;
     margin-top: 75px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px 25px;
 }
 .appCard {

@@ -36,8 +36,8 @@ header h1 {
 }
 .appCard {
     height: 150px;
-	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
-    
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+    background-color: white;
 }
 
 .cardTitle {
@@ -46,13 +46,10 @@ header h1 {
     width: 100%;
     text-align: center;
     font-size: 1.1rem;
-    color: white;
-    border: 2px solid black;
 }
 
 .cardLink {
     width: 100%;
-    border: 2px solid black;
     border-top: none;
 }
 
@@ -67,54 +64,57 @@ header h1 {
 
 .cardLink button:hover {
     cursor: pointer;
-    color: white;
     opacity: 1.0;
     transition: 0.3s;
 }
 
 .cardLink button i {
     font-size: 1.3rem;
-    opacity: 0.7;
 }
 
 .cardLink button:hover i {
-    opacity: 1.0;
-}
-
-.border-left {
-    border-left: 2px solid black;
+    opacity: 0.5;
+    transition: 0.3s;
 }
 
 /*CARD COLORS*/
 
 .appCard:nth-child(1) {
-    background-color: #DC3E15;
+    border-top:5px solid #DC3E15;
+    color: #DC3E15;
 }
 
 .appCard:nth-child(2) {
-    background-color: #0061d5;
+    border-top:5px solid #0061d5;
+    color: #0061d5;
 }
 
 .appCard:nth-child(3) {
-    background-color: #0bc5ba;
+    border-top:5px solid #0bc5ba;
+    color: #0bc5ba;
 }
 
 .appCard:nth-child(4) {
-    background-color: #0E71EB;
+    border-top:5px solid #0E71EB;
+    color: #0E71EB;
 }
 
 .appCard:nth-child(5) {
-    background-color: #0E71EB;
+    border-top:5px solid #0E71EB;
+    color: #0E71EB;
 }
 
 .appCard:nth-child(6) {
-    background-color: #e52920;
+    border-top:5px solid #e52920;
+    color: #e52920;
 }
 
 .appCard:nth-child(7) {
-    background-color: #ff0000;
+    border-top:5px solid #ff0000;
+    color: #ff0000;
 }
 
 .appCard:nth-child(8) {
-    background-color: #3eb991;
+    border-top:5px solid #3eb991;
+    color: #3eb991;
 }

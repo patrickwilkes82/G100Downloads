@@ -35,46 +35,56 @@ header h1 {
     grid-gap: 50px 25px;
 }
 .appCard {
-    height: 150px;
+    height: 200px;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
     background-color: white;
 }
 
 .cardTitle {
-    height: 100px;
-    line-height: 100px;
+    height: 75px;
+    line-height: 75px;
     width: 100%;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
 }
 
-.cardLink {
-    width: 100%;
-    border-top: none;
-}
-
-.cardLink button {
+button {
     width: 50%;
-    height: 50px;
-    border: none;
-    background-color: transparent;
+    height: 35px;
     transition: 0.3s;
     border-top: none;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
 
-.cardLink button:hover {
+button:hover {
     cursor: pointer;
-    opacity: 1.0;
-    transition: 0.3s;
 }
 
-.cardLink button i {
-    font-size: 1.3rem;
+.windowsBtn {
+    background-color: #0078d7;
+    border: 2px solid #0078d7;
+    color: white;
 }
 
-.cardLink button:hover i {
-    opacity: 0.5;
-    transition: 0.3s;
+.windowsBtn:hover {
+    color: black;
+    border: 2px solid #0078d7;
+    background-color: transparent;
+}
+
+.appleBtn {
+    background-color: #7D7D7D;
+    border: 2px solid #7D7D7D;
+    color: white;
+}
+
+.appleBtn:hover {
+    border: 2px solid #7D7D7D;
+    background-color: transparent;
+    color: black;
 }
 
 /*CARD COLORS*/

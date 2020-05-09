@@ -25,10 +25,15 @@ header img {
     margin: 10px 0 0 50px;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
 
 .sectionTitle {
     width: 70%;
-    margin: 25px auto;
+    margin: 65px auto;
 }
 
 .container {
@@ -36,7 +41,7 @@ header img {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px 25px;
+    grid-gap: 65px 25px;
 }
 .appCard {
     height: 200px;

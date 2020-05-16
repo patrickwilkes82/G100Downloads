@@ -44,7 +44,7 @@ header img {
     grid-gap: 65px 25px;
 }
 .appCard {
-    height: 200px;
+    height: 265px;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
     background-color: white;
 }
@@ -84,16 +84,28 @@ button:hover {
     background-color: transparent;
 }
 
-.appleBtn {
+.appleBtn, .iosBtn {
     background-color: #7D7D7D;
     border: 2px solid #7D7D7D;
     color: white;
 }
 
-.appleBtn:hover {
+.appleBtn:hover, .iosBtn:hover {
     border: 2px solid #7D7D7D;
     background-color: transparent;
     color: black;
+}
+
+.androidBtn {
+    background-color: #a4c639;
+    border: 2px solid #a4c639;
+    color: white;
+}
+
+.androidBtn:hover {
+    color: black;
+    border: 2px solid #a4c639;
+    background-color: transparent;
 }
 
 /*CARD COLORS*/

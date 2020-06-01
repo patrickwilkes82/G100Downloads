@@ -15,13 +15,13 @@ body {
 }
 
 header {
-    height: 75px;
+    height: 76px;
     box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.75);
     background-color: white;
 }
 
 header img {
-    width: 125px;
+    width: 126px;
     margin: 10px 0 0 50px;
 }
 
@@ -33,7 +33,7 @@ header img {
 
 .sectionTitle {
     width: 70%;
-    margin: 65px auto;
+    margin: 66px auto;
 }
 
 .container {
@@ -41,31 +41,32 @@ header img {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 65px 25px;
+    grid-gap: 66px 26px;
 }
 .appCard {
-    height: 265px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+    height: 326px;
+    box-shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.25);
     background-color: white;
 }
 
 .cardTitle {
-    height: 75px;
-    line-height: 75px;
+    height: 76px;
+    line-height: 76px;
     width: 100%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 button {
-    width: 65%;
-    height: 35px;
+    width: 60%;
+    height: 50px;
     transition: 0.3s;
     border-top: none;
     margin: 0 auto;
     display: block;
     border-radius: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
+    font-size: 16px;
 }
 
 button:hover {
@@ -79,9 +80,9 @@ button:hover {
 }
 
 .windowsBtn:hover {
-    color: black;
+    color: #0078d7;
     border: 2px solid #0078d7;
-    background-color: transparent;
+    background-color: #eee;
 }
 
 .appleBtn, .iosBtn {
@@ -92,8 +93,8 @@ button:hover {
 
 .appleBtn:hover, .iosBtn:hover {
     border: 2px solid #7D7D7D;
-    background-color: transparent;
-    color: black;
+    background-color: #eee;
+    color: #7D7D7D;
 }
 
 .androidBtn {
@@ -103,49 +104,49 @@ button:hover {
 }
 
 .androidBtn:hover {
-    color: black;
+    color: #a4c639;
     border: 2px solid #a4c639;
-    background-color: transparent;
+    background-color: #eee;
 }
 
 /*CARD COLORS*/
 
 .appCard:nth-child(1) {
-    border-top:5px solid #DC3E15;
+    border-top:6px solid #DC3E15;
     color: #DC3E15;
 }
 
 .appCard:nth-child(2) {
-    border-top:5px solid #0061d5;
+    border-top:6px solid #0061d5;
     color: #0061d5;
 }
 
 .appCard:nth-child(3) {
-    border-top:5px solid #0bc5ba;
+    border-top:6px solid #0bc5ba;
     color: #0bc5ba;
 }
 
 .appCard:nth-child(4) {
-    border-top:5px solid #0E71EB;
+    border-top:6px solid #0E71EB;
     color: #0E71EB;
 }
 
 .appCard:nth-child(5) {
-    border-top:5px solid #0E71EB;
+    border-top:6px solid #0E71EB;
     color: #0E71EB;
 }
 
 .appCard:nth-child(6) {
-    border-top:5px solid #e52920;
+    border-top:6px solid #e52920;
     color: #e52920;
 }
 
 .appCard:nth-child(7) {
-    border-top:5px solid #ff0000;
+    border-top:6px solid #ff0000;
     color: #ff0000;
 }
 
 .appCard:nth-child(8) {
-    border-top:5px solid #3eb991;
+    border-top:6px solid #3eb991;
     color: #3eb991;
 }
